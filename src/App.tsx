@@ -380,14 +380,14 @@ const App: React.FC = () => {
             <Typography textAlign={"center"} fontSize="32px" sx={{ mr: 1, color: "#056fcd" }}>Alguns de <span style={{ fontWeight: "bold", color: "#056fcd" }}>nossos clientes</span><span style={{ fontWeight: "bold", color: "#31f9fa" }}>:</span> </Typography>
           </Box>
           <Stack direction="row" justifyContent="space-around" flexWrap="wrap" alignItems="center" gap={8} mt={10} mb={10} sx={{ padding: "0 4rem" }}>
-            <img style={{ width: "23%", minWidth: "150px", maxWidth: "300px" }} src={LogoAgriNews} alt="Logo AgriNews" />
-            <img style={{ width: "23%", minWidth: "150px", maxWidth: "300px" }} src={LogoWeCompany} alt="Logo We Company" />
-            <img style={{ width: "23%", minWidth: "150px", maxWidth: "300px" }} src={LogoGiorelli} alt="Logo Giorelli" />
-            <img style={{ width: "23%", minWidth: "150px", maxWidth: "300px" }} src={LogoSoteLab} alt="Logo Sotelab" />
-            <img style={{ width: "23%", minWidth: "150px", maxWidth: "300px" }} src={LogoFitFashion} alt="Logo FitFashion" />
-            <img style={{ width: "23%", minWidth: "150px", maxWidth: "300px" }} src={LogoNOI} alt="Logo NOI" />
-            <img style={{ width: "23%", minWidth: "150px", maxWidth: "300px" }} src={LogoMR} alt="Logo MR" />
-            <img style={{ width: "23%", minWidth: "150px", maxWidth: "300px" }} src={LogoOttoboni} alt="Logo Ottoboni" />
+            <img style={{ width: "23%", minWidth: "150px", maxWidth: "310px" }} src={LogoAgriNews} alt="Logo AgriNews" />
+            <img style={{ width: "23%", minWidth: "150px", maxWidth: "310px" }} src={LogoWeCompany} alt="Logo We Company" />
+            <img style={{ width: "23%", minWidth: "150px", maxWidth: "310px" }} src={LogoGiorelli} alt="Logo Giorelli" />
+            <img style={{ width: "23%", minWidth: "150px", maxWidth: "310px" }} src={LogoSoteLab} alt="Logo Sotelab" />
+            <img style={{ width: "23%", minWidth: "150px", maxWidth: "310px" }} src={LogoFitFashion} alt="Logo FitFashion" />
+            <img style={{ width: "23%", minWidth: "150px", maxWidth: "310px" }} src={LogoNOI} alt="Logo NOI" />
+            <img style={{ width: "23%", minWidth: "150px", maxWidth: "310px" }} src={LogoMR} alt="Logo MR" />
+            <img style={{ width: "23%", minWidth: "150px", maxWidth: "310px" }} src={LogoOttoboni} alt="Logo Ottoboni" />
           </Stack>
         </Stack>
         <Stack alignItems="center">
