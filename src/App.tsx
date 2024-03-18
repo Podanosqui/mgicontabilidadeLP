@@ -25,6 +25,15 @@ import PlaceIcon from '@mui/icons-material/Place';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 
+// Fotos
+import MarceloGarcia from './assets/MarceloGarcia.png';
+import Joyce from './assets/Joyce.png';
+import Leci from './assets/Leci.png';
+import NathaliaMarinho from './assets/NathaliaMarinho.png';
+import LuizEduardoFontes from './assets/LuizEduardoFontes.png';
+import FGustavoBoniolo from './assets/FGustavoBoniolo.png';
+import GracaMarinho from './assets/GracaMarinho.png';
+
 
 
 
@@ -134,29 +143,29 @@ const App: React.FC = () => {
 
         </Stack>
 
-        <Stack mb={10} id="section1"></Stack>
+        <Stack mb={is900 ? 10 : 0} id="section1"></Stack>
 
-        <Stack
-          width="100%"
-        >
-          <Stack height="100%" padding="1rem 1rem 0 1rem" sx={{ background: "linear-gradient(236deg, rgba(91,221,228,1) 0%, rgba(33,127,193,1) 100%)" }} direction="row" justifyContent="space-around" alignItems="center">
-            <Stack justifyContent="center" height="300px" m={2} >
-              <Stack width={is900 ? "360px" : "100%"} mb={3}>
-                <Typography fontWeight="bold" sx={is900 ? { color: "#fff", fontSize: "32px" } : { color: "#fff", fontSize: "28px", textAlign: "center" }}>Trilhe o caminho rumo a uma gestão contábil</Typography>
-              </Stack>
-              <Stack width={is900 ? "300px" : "100%"}>
-                <Typography fontWeight="bold" sx={is900 ? { color: "#fff", fontSize: "42px", fontWeight: "bold" } : { color: "#fff", fontSize: "28px", textAlign: "center" }}>eficaz, tranquila,</Typography>
-                <Typography fontWeight="bold" sx={is900 ? { color: "#fff", fontSize: "42px", fontWeight: "bold" } : { color: "#fff", fontSize: "28px", textAlign: "center" }}>& eficiente!</Typography>
-              </Stack>
+        {is900 &&
+          <Stack
+            width="100%"
+          >
+            <Stack height="100%" padding="1rem 1rem 0 1rem" sx={{ background: "linear-gradient(236deg, rgba(91,221,228,1) 0%, rgba(33,127,193,1) 100%)" }} direction="row" justifyContent="space-around" alignItems="center">
+              <Stack justifyContent="center" height="300px" m={2} >
+                <Stack width={is900 ? "360px" : "100%"} mb={3}>
+                  <Typography fontWeight="bold" sx={is900 ? { color: "#fff", fontSize: "32px" } : { color: "#fff", fontSize: "28px", textAlign: "center" }}>Trilhe o caminho rumo a uma gestão contábil</Typography>
+                </Stack>
+                <Stack width={is900 ? "300px" : "100%"}>
+                  <Typography fontWeight="bold" sx={is900 ? { color: "#fff", fontSize: "42px", fontWeight: "bold" } : { color: "#fff", fontSize: "28px", textAlign: "center" }}>eficaz, tranquila,</Typography>
+                  <Typography fontWeight="bold" sx={is900 ? { color: "#fff", fontSize: "42px", fontWeight: "bold" } : { color: "#fff", fontSize: "28px", textAlign: "center" }}>& eficiente!</Typography>
+                </Stack>
 
-            </Stack>
-            {is900 &&
+              </Stack>
               <Stack height="100%" width='60%' alignItems="center" justifyContent="flex-end">
                 <img width="80%" src={IlustracaoDesktop} alt="" />
               </Stack>
-            }
+            </Stack>
           </Stack>
-        </Stack>
+        }
 
         <Stack mb={6} mt={5} id="section2"></Stack>
 
@@ -190,43 +199,61 @@ const App: React.FC = () => {
             <Typography fontSize="24px" fontWeight="bold" sx={{ color: "#5691e4" }}>Conheça a nossa equipe...</Typography>
           </Stack>
           <Stack direction="row" padding="0 4rem" mt={5} justifyContent="space-around" flexWrap="wrap" gap={3}>
-            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="300px" width="300px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
-              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={IlustracaoDesktop} alt="" />
+            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="350px" width="350px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
+              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={GracaMarinho} alt="" />
               <Stack width="80%" bgcolor="#056fcd" padding="0 4px" alignItems="center" mb="-20px" zIndex={2} sx={{ borderRadius: "20px 0 20px 0" }}>
-                <Typography fontWeight="bold" sx={{ color: "#fff" }}>Marcelo Garcia</Typography>
-                <Typography sx={{ color: "#fff" }}>CEO</Typography>
+                <Typography fontWeight="bold" sx={{ color: "#fff" }}>Graça Marinho</Typography>
+                <Typography sx={{ color: "#fff", fontWeight: "200" }}>SÓCIA FUNDADORA</Typography>
 
               </Stack>
             </Stack>
-            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="300px" width="300px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
-              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={IlustracaoDesktop} alt="" />
+            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="350px" width="350px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
+              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={MarceloGarcia} alt="" />
               <Stack width="80%" bgcolor="#056fcd" padding="0 4px" alignItems="center" mb="-20px" zIndex={2} sx={{ borderRadius: "20px 0 20px 0" }}>
                 <Typography fontWeight="bold" sx={{ color: "#fff" }}>Marcelo Garcia</Typography>
-                <Typography sx={{ color: "#fff" }}>CEO</Typography>
+                <Typography sx={{ color: "#fff", fontWeight: "200" }}>CEO</Typography>
 
               </Stack>
             </Stack>
-            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="300px" width="300px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
-              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={IlustracaoDesktop} alt="" />
+            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="350px" width="350px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
+              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={FGustavoBoniolo} alt="" />
               <Stack width="80%" bgcolor="#056fcd" padding="0 4px" alignItems="center" mb="-20px" zIndex={2} sx={{ borderRadius: "20px 0 20px 0" }}>
-                <Typography fontWeight="bold" sx={{ color: "#fff" }}>Marcelo Garcia</Typography>
-                <Typography sx={{ color: "#fff" }}>CEO</Typography>
+                <Typography fontWeight="bold" sx={{ color: "#fff" }}>F.Gustavo Boniolo</Typography>
+                <Typography sx={{ color: "#fff", fontWeight: "200" }}>ANALISTA CONTÁBIL</Typography>
 
               </Stack>
             </Stack>
-            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="300px" width="300px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
-              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={IlustracaoDesktop} alt="" />
+            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="350px" width="350px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
+              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={NathaliaMarinho} alt="" />
               <Stack width="80%" bgcolor="#056fcd" padding="0 4px" alignItems="center" mb="-20px" zIndex={2} sx={{ borderRadius: "20px 0 20px 0" }}>
-                <Typography fontWeight="bold" sx={{ color: "#fff" }}>Marcelo Garcia</Typography>
-                <Typography sx={{ color: "#fff" }}>CEO</Typography>
+                <Typography fontWeight="bold" sx={{ color: "#fff" }}>Nathalia Marinho</Typography>
+                <Typography sx={{ color: "#fff", fontWeight: "200" }}>AUXILIAR ADMINISTRATIVO</Typography>
 
               </Stack>
             </Stack>
-            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="300px" width="300px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
-              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={IlustracaoDesktop} alt="" />
+            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="350px" width="350px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
+              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={Leci} alt="" />
               <Stack width="80%" bgcolor="#056fcd" padding="0 4px" alignItems="center" mb="-20px" zIndex={2} sx={{ borderRadius: "20px 0 20px 0" }}>
-                <Typography fontWeight="bold" sx={{ color: "#fff" }}>Marcelo Garcia</Typography>
-                <Typography sx={{ color: "#fff" }}>CEO</Typography>
+                <Typography fontWeight="bold" sx={{ color: "#fff" }}>Leci</Typography>
+                <Typography sx={{ color: "#fff", fontWeight: "200" }}>ARQUIVISTA</Typography>
+
+              </Stack>
+            </Stack>
+
+            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="350px" width="350px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
+              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={LuizEduardoFontes} alt="" />
+              <Stack width="80%" bgcolor="#056fcd" padding="0 4px" alignItems="center" mb="-20px" zIndex={2} sx={{ borderRadius: "20px 0 20px 0" }}>
+                <Typography fontWeight="bold" sx={{ color: "#fff" }}>Luiz Eduardo</Typography>
+                <Typography sx={{ color: "#fff", fontWeight: "200" }}>OFFICE BOY</Typography>
+
+              </Stack>
+            </Stack>
+
+            <Stack mt={3} justifyContent="flex-end" alignItems="center" height="350px" width="350px" sx={{ outline: "1px solid #61a3fe", borderRadius: "80px 0 80px 0" }}>
+              <img style={{ width: "100%", zIndex: 1, marginBottom: "-20px" }} src={Joyce} alt="" />
+              <Stack width="80%" bgcolor="#056fcd" padding="0 4px" alignItems="center" mb="-20px" zIndex={2} sx={{ borderRadius: "20px 0 20px 0" }}>
+                <Typography fontWeight="bold" sx={{ color: "#fff" }}>Joyce</Typography>
+                <Typography sx={{ color: "#fff", fontWeight: "200" }}>ESTAGIÁRIA</Typography>
 
               </Stack>
             </Stack>
