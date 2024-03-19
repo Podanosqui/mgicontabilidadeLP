@@ -3,13 +3,13 @@ import './App.css'
 
 // Logos
 import LogoMGI from './assets/Nova logo-MGI.png'
-import IlustracaoDesktop from './assets/MGI Contabilidade (17).png'
+import IlustracaoDesktop from './assets/FotosComputador.png'
 import LogoAgriNews from './assets/LogoAgriNews.png';
 import LogoWeCompany from './assets/LogoWeCompany.png';
-import LogoSoteLab from './assets/LogoSetoLab.png';
+import LogoSoteLab from './assets/LogoSotelab.png';
 import LogoNOI from './assets/LogoNOI.png';
 import LogoOttoboni from './assets/LogoOttoboni.png';
-import LogoFitFashion from './assets/LogoFITFASHION.png';
+import LogoFitFashion from './assets/LogoFitFashion.png';
 import LogoMR from './assets/LogoMR.png';
 import LogoGiorelli from './assets/LogoGiorelli.jpg';
 
@@ -30,7 +30,7 @@ import MarceloGarcia from './assets/MarceloGarcia.png';
 import Joyce from './assets/Joyce.png';
 import Leci from './assets/Leci.png';
 import NathaliaMarinho from './assets/NathaliaMarinho.png';
-import LuizEduardoFontes from './assets/LuizEduardoFontes.png';
+import LuizEduardoFontes from './assets/LuizEduardo.png';
 import FGustavoBoniolo from './assets/FGustavoBoniolo.png';
 import GracaMarinho from './assets/GracaMarinho.png';
 
