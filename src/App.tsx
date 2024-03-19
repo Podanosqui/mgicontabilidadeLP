@@ -9,10 +9,10 @@ import LogoWeCompany from './assets/LogoWeCompany.png';
 import LogoSoteLab from './assets/LogoSotelab.png';
 import LogoNOI from './assets/LogoNOI.png';
 import LogoOttoboni from './assets/LogoOttoboni.png';
-import LogoFitFashion from './assets/LogoFitFashion.png';
 import LogoMR from './assets/LogoMR.png';
 import LogoGiorelli from './assets/LogoGiorelli.jpg';
 import LogoFinoTraje from './assets/LogoFinoTraje.png';
+import LogoFitFashion from './assets/LogoFitFashion.png'
 
 // Ícones
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
