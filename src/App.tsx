@@ -12,7 +12,7 @@ import LogoOttoboni from './assets/LogoOttoboni.png';
 import LogoMR from './assets/LogoMR.png';
 import LogoGiorelli from './assets/LogoGiorelli.jpg';
 import LogoFinoTraje from './assets/LogoFinoTraje.png';
-import LogoFitFashion from './assets/LogoFitFashion.png';
+import LogoFitFashion from './assets/LogoFITFASHION.png';
 
 // Ícones
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
