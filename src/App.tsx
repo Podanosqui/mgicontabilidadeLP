@@ -2,8 +2,8 @@ import { Box, Button, IconButton, Link, Stack, Typography, useMediaQuery } from 
 import './App.css'
 
 // Logos
-import LogoMGI from './assets/Nova logo-MGI.png'
-import IlustracaoDesktop from './assets/FotosComputador.png'
+import LogoMGI from './assets/Nova logo-MGI.png';
+import IlustracaoDesktop from './assets/FotosComputador.png';
 import LogoAgriNews from './assets/LogoAgriNews.png';
 import LogoWeCompany from './assets/LogoWeCompany.png';
 import LogoSoteLab from './assets/LogoSotelab.png';
@@ -12,7 +12,7 @@ import LogoOttoboni from './assets/LogoOttoboni.png';
 import LogoMR from './assets/LogoMR.png';
 import LogoGiorelli from './assets/LogoGiorelli.jpg';
 import LogoFinoTraje from './assets/LogoFinoTraje.png';
-import LogoFitFashion from './assets/LogoFitFashion.png'
+import LogoFitFashion from './assets/LogoFitFashion.png';
 
 // Ícones
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
